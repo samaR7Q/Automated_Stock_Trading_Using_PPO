@@ -12,7 +12,11 @@ This project implements an automated stock trading agent using PPO, a state-of-t
 
 ### Baseline Work
 
-The project builds upon a standard PPO implementation using Stable-Baselines3. The baseline implementation included:
+This project is based on the research paper:
+**"Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy"**  
+Paper: https://arxiv.org/pdf/2511.12120
+
+The baseline implementation used standard PPO from Stable-Baselines3 with:
 - Basic PPO algorithm with fixed hyperparameters (ε = 0.2)
 - Simple reward function based on portfolio value changes
 - Daily OHLCV data with basic technical indicators
@@ -133,6 +137,13 @@ The project includes several performance charts:
 
 This is an academic project for educational purposes.
 
+## References
+
+**Original Paper:**  
+"Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy"  
+arXiv:2511.12120  
+https://arxiv.org/pdf/2511.12120
+
 ## Acknowledgments
 
-Built upon the Stable-Baselines3 PPO implementation and inspired by research in deep reinforcement learning for financial trading.
+This project builds upon the research paper above and uses the Stable-Baselines3 PPO implementation. Phase 2 improvements were developed as part of the FAST School of Computing RL course.
