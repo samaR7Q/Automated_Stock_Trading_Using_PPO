@@ -10,6 +10,17 @@ This project implements an automated stock trading agent using PPO, a state-of-t
 **Institution:** FAST School of Computing  
 **Team Members:** Maaz Ud Din, Saamer Abbas, Sammar Kaleem, Ali Hassan
 
+### Baseline Work
+
+The project builds upon a standard PPO implementation using Stable-Baselines3. The baseline implementation included:
+- Basic PPO algorithm with fixed hyperparameters (ε = 0.2)
+- Simple reward function based on portfolio value changes
+- Daily OHLCV data with basic technical indicators
+- Single environment training
+- Standard neural network architecture
+
+**Phase 2 Focus:** We enhanced this baseline with algorithmic improvements, advanced features, and training optimizations to achieve significantly better performance.
+
 ## What's Inside
 
 ### Main Files
